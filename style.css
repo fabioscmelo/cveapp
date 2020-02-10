@@ -1,0 +1,124 @@
+#root {
+  /* max-width: 1200px;
+  margin: 0 auto; */  
+  margin: 15px;
+}
+
+.body_color{
+  background-color: #fff;
+  display: contents;
+  zoom: 37%;
+}
+
+.container {
+/* display: flex; */
+  flex-wrap: wrap;
+}
+
+.cve-logo {
+  font-family: Verdana, Helvetica, Arial, sans-serif;
+  text-decoration: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 1.07142857rem;
+  /* letter-spacing: 3px; */
+  color: #c4dbf0;
+  display: block;
+  position: absolute;
+ 
+}
+
+.top {
+  padding: 0.01em 16px;
+  position: relative;
+  background-color: #ffffff;
+  height: 68px;
+  padding-top: 20px;
+  line-height: 50px;
+  overflow: hidden;
+  z-index: 2;
+  background-color: #3077B7;
+}
+
+.card {
+  margin: 1rem;
+  border: 2px solid gray ;
+  border-radius: 5px;
+}
+
+.cardred {
+  /* margin: 1rem; */
+  border: 1px solid white;
+  /* border-radius: 5px; */
+  /* border-color:blue; */
+  background-color: #ff00002e;
+  
+  
+}
+
+.cardblue {
+  /* margin: 1rem; */
+  border: 1px solid white;
+  /* border-radius: 5px; */
+  /* border-color:blue; */
+  background-color: #D2D4D6; 
+}
+
+.cardamarelo {
+  /* margin: 1rem; */
+  border: 1px solid white;
+  /* border-radius: 5px; */
+  /* border-color:yellow; */
+  background-color: #ffff001c;
+  
+}
+
+.cardverde {
+  /* margin: 1rem; */
+  border: 1px solid white;
+  /* border-radius: 5px; */
+  /* border-color:green; */
+  background-color: #00800024; 
+}
+
+.cardlaranja {
+  /* margin: 1rem; */
+  border: 1px solid white; 
+  /* border-radius: 5px; */
+  /* border-color:orange; */
+  background-color: #ffa5002b;
+}
+
+.cardcontent {
+  padding-left: 10px;
+  font-family: Verdana, Helvetica, Arial, sans-serif;
+}
+
+.loader {
+  border: 16px solid #f3f3f3; /* Light grey */
+  border-top: 16px solid #3498db; /* Blue */
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  animation: spin 2s linear infinite;
+  position: absolute;
+  left: 48%;
+  top: 48%;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+@media screen and (min-width: 600px) {
+  .card {
+    flex: 1 1 calc(50% - 2rem);
+  }
+}
+
+/* @media screen and (min-width: 900px) {
+  .card {
+    flex: 1 1 calc(33% - 2rem);
+  }
+} */
